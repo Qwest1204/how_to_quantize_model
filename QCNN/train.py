@@ -101,5 +101,5 @@ if __name__ == '__main__':
     print('Finished Training')
 
     # Save trained model
-    PATH = './cifar_net.pth'
+    PATH = 'cifar_net.pth'
     torch.save(net.state_dict(), PATH)
